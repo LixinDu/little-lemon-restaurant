@@ -23,12 +23,13 @@
     flex-flow: row wrap;
     justify-content: space-between; /* Spread the links across the available space */
     flex-grow: 1; /* Allow the links to take up the remaining space after the logo */
-    margin-left: 50px;
+    margin-left: 3em;
     width: 100%;
 }
 
 .nav-links li {
     margin-left: 20px;
+    font-size: 1.25em;
 }
 
 .nav-links a {
