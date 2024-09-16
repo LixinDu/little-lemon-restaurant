@@ -1,0 +1,41 @@
+/* use *{} and .grid-container in App.css */
+/* Navbar spanning columns 3 to 10 */
+.navbar {
+    grid-column: 3 / span 8; /* Start at column 3, span across 8 columns (until column 10) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;/* Optional: background color for the navbar */
+    padding: 10px;
+    justify-content: stretch;
+}
+
+/* Logo styling */
+.logo img {
+    flex-grow: 1;
+    height: 50px; /* Adjust height as needed */
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; /* Spread the links across the available space */
+    flex-grow: 1; /* Allow the links to take up the remaining space after the logo */
+    margin-left: 50px;
+    width: 100%;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.nav-links a:hover {
+    color: #007bff;/* Optional: hover effect */
+}

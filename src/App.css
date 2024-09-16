@@ -1,19 +1,27 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-/* nav ul{
-  list-style: none;
-  text-align: center;
-}
-
-nav li{
-  display: inline-block;
-
 } */
+
+/* Reset some default styles */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Monaco', 'Courier New', Courier, monospace;
+}
+
+/* Grid container with 12 columns */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* 12 equal columns */
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+
+
