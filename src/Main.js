@@ -39,7 +39,7 @@ function Special() {
         <section className="grid-container">
             <div className="grid-segment specials">
                 <h2>This week specials!</h2>
-                <button>online Menu</button>
+                <button>Online Menu</button>
             </div>
             <div className="grid-segment menu">
                 <Food
