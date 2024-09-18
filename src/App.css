@@ -19,8 +19,6 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr); /* 12 equal columns */
-  padding: 20px;
-  background-color: #f4f4f4;
 }
 
 
