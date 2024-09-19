@@ -42,12 +42,12 @@ button{
 
 .brand-photo-container{
     grid-column: 8/ span 3;
-    position: absolute; /* Position absolutely to extend outside */
+    position: relative; /* Position absolutely to extend outside */
     overflow: hidden; /* Hide overflow to maintain rounded corners visible */
     top: 40px;
     bottom: -60px; /* Moves the container 30px below the brand section */
     right: 0; /* Aligns the container to the right edge */
-    width: 40%; /* Fixed width for control */
+    width:100%; /* Fixed width for control */
     height: 500px; /* Fixed height for control */
 }
 .brand-photo{
